@@ -1,39 +1,44 @@
 .logo {
-  color: #ffd32a;
+  color: #f1c40f;
+}
+
+.btn-menu {
+  color: #fff;
+  font-size: 12px;
+  padding: 7px;
+}
+
+.menu {
+  color: #f5f6fa;
 }
 
 li {
   display: inline-block;
   font-size: 14px;
-  color: #ffffff;
+  color: #f5f6fa;
   text-decoration: none;
 }
 
-.navigation {
-  margin: 0 auto;
-  background-image: url(https://images.pexels.com/photos/322207/pexels-photo-322207.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+.intro {
+  background-image: url("https://images.pexels.com/photos/5249311/pexels-photo-5249311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   object-fit: cover;
+  position: relative;
+  padding: 15px;
 }
 
-.splash-inner {
-  color: #ffffff;
+.splash {
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin: 0 auto;
+  color: #fff;
 }
 
-.row {
-  display: inline-block;
-}
-
-.btn {
-  color: #ffffff;
-  margin: 24px auto 0 auto;
-  padding: 16px;
-  border-radius: 5px;
-  font-size: 16px;
+.splash .btn-primary {
   text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-  border-style: solid;
-  background-color: #ffa502;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  background-color: #ffc107;
 }
 
 .services .row {
@@ -58,5 +63,17 @@ li {
 
 .card-body {
   text-align: center;
+}
+
+.first-title {
+  font-size: 20px;
+}
+
+.section-title {
+  font-size: 50px;
+}
+
+.portfolio {
+  background: #dfe6e9;
 }
 /*# sourceMappingURL=style.css.map */
