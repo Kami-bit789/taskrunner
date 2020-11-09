@@ -27,8 +27,7 @@ li {
 }
 
 .splash {
-  -ms-flex-pack: center;
-      justify-content: center;
+  justify-content: center;
   margin: 0 auto;
   color: #fff;
 }
@@ -76,4 +75,5 @@ li {
 .portfolio {
   background: #dfe6e9;
 }
+
 /*# sourceMappingURL=style.css.map */
