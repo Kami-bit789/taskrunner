@@ -30,8 +30,10 @@ li {
 }
 
 .splash {
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   margin: 0 auto;
   color: #fff;
 }
@@ -91,5 +93,4 @@ li {
   margin-left: auto;
   margin-right: auto;
 }
-
 /*# sourceMappingURL=style.css.map */
