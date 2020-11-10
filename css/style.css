@@ -1,38 +1,36 @@
-
-
-
-
 .logo {
-    color: #f1c40f;
-}
-.btn-menu {
-    color: #fff;
-    font-size: 12px;
-    padding: 7px;
-}
-.menu {
-    color: #f5f6fa;
-}
-li {
-    display: inline-block;
-    font-size: 14px;
-    color: #f5f6fa;
-    text-decoration: none;
-}
-.intro  {
-    background-image: url("https://images.pexels.com/photos/5249311/pexels-photo-5249311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-    object-fit: cover;
-    position: relative;
-    padding: 15px;
+  color: #f1c40f;
 }
 
+.btn-menu {
+  color: #fff;
+  font-size: 12px;
+  padding: 7px;
+}
+
+.menu {
+  color: #f5f6fa;
+}
+
+li {
+  display: inline-block;
+  font-size: 14px;
+  color: #f5f6fa;
+  text-decoration: none;
+}
+
+.intro {
+  background-image: url("https://images.pexels.com/photos/5249311/pexels-photo-5249311.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  object-fit: cover;
+  position: relative;
+  padding: 15px;
+}
 
 .splash {
-   justify-content: center;
-    margin: 0 auto;
-    color: #fff; 
-    
-   
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin: 0 auto;
+  color: #fff;
 }
 
 .splash .btn-primary {
@@ -42,32 +40,40 @@ li {
   border: none;
   background-color: #ffc107;
 }
+
 .services .row {
-text-align: center;
+  text-align: center;
 }
+
 .section-subtitle {
-font-size: 12px;
+  font-size: 12px;
 }
+
 .services i {
-font-size: 30px;
-background: none;
-color: #ffd32a;
-width: 60px;
-height: 60px;
-line-height: 60px;
-border-radius: 50%;
-text-align: center;
-border-color: #ffd32a;
+  font-size: 30px;
+  background: none;
+  color: #ffd32a;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  border-color: #ffd32a;
 }
+
 .card-body {
   text-align: center;
 }
+
 .first-title {
-    font-size: 20px;
+  font-size: 20px;
 }
+
 .section-title {
   font-size: 50px;
 }
+
 .portfolio {
-    background: #dfe6e9;
+  background: #dfe6e9;
 }
+/*# sourceMappingURL=style.css.map */
