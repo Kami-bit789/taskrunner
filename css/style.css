@@ -1,7 +1,7 @@
-
 body {
   margin: 0;
 }
+
 .logo {
   color: #f1c40f; 
   padding: 15px;
@@ -24,30 +24,29 @@ body {
     border-top-left-radius:4px;
     text-decoration: none;
 }
+
 .menu {
-  color: #f5f6fa;
+  color: #f5f6fa; 
   padding: 15px;
-  display: flex;
-  justify-content: space-between;
 }
 
 li {
   display: inline-block;
   font-size: 14px;
   color: #f5f6fa;
-  text-decoration: none;
+  text-decoration: none; 
 }
-
 .intro {
   background-image: url("https://images.pexels.com/photos/3892378/pexels-photo-3892378.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-repeat: no-repeat;
-  height: 600px; 
+  height: 100%;
   width: 100%;
   background-size: cover;
   position: relative;
-  min-height: 500px;
-  background-position: center center;     
+  min-height: 300px;
+  background-position: center center; 
 }
+
 .splash {
   display: flex;
   justify-content: center;
@@ -59,6 +58,14 @@ li {
 .splash .page-title {
   font-family: 'Dancing Script', cursive;
 }
+
+.splash .btn-primary {
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  background-color: #ffc107;
+}
 .services .container {
   margin: 0 auto;
   flex: 0 0 33.333%;
@@ -69,6 +76,7 @@ li {
   padding-top: 100px;
   font-size: 30px;
 }
+
 .article  {
   padding: 10px 0px;
   display: flex;
@@ -76,32 +84,37 @@ li {
   justify-content: space-between;
 }
 .splash .btn-primary {
+text-align: center;
+font-size: 16px;
+color: #fff;
+border: none;
+background-color: #ffc107; 
+}
+.serivces-title {
   text-align: center;
-  font-size: 16px;
-  color: #fff;
-  border: none;
-  background-color: #ffc107;
 }
 .services .row {
   text-align: center; 
 }
 
-.serivces-title {
-  text-align: center;
-}
-
 .section-subtitle {
   font-size: 12px;
 }
+
 .services i {
   font-size: 30px;
   background: none;
   color: #ffd32a;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
   border-radius: 50%;
   text-align: center;
+  border-color: #ffd32a;
   border: 3px solid #ffd32a; 
   padding: 10px;
 }
+
 .card-body {
   text-align: center;
 }
@@ -118,6 +131,12 @@ li {
 
 .portfolio {
   background: #dfe6e9;
+}
+.portfolio img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  justify-content: center;
 }
 
 .page-footer .container .row {
