@@ -33,7 +33,7 @@ li {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
-      justify-content: center;
+  justify-content: center;
   margin: 0 auto;
   color: #fff;
 }
