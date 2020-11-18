@@ -66,6 +66,10 @@ li {
   font-family: 'Dancing Script', cursive;
 }
 
+.splash .page-subtitle {
+  text-transform: uppercase;
+}
+
 .splash .btn-primary {
   text-align: center;
   font-size: 16px;
@@ -113,14 +117,6 @@ li {
   background-color: #ffc107;
 }
 
-.cotainer-inner .serivces-title {
-  text-align: center;
-}
-
-.services .row {
-  text-align: center;
-}
-
 .services i {
   font-size: 30px;
   background: none;
@@ -145,16 +141,25 @@ li {
 }
 
 .section-title {
-  font-size: 50px;
+  font-size: 30px;
   padding: 20px;
+  text-transform: uppercase;
 }
 
 .portfolio .section-title {
+  text-transform: uppercase;
+}
+
+.portfolio .container-inner .row {
   text-align: center;
 }
 
 .portfolio {
   background: #dfe6e9;
+}
+
+.portfolio .row {
+  margin-bottom: 0;
 }
 
 .portfolio img {
@@ -163,6 +168,24 @@ li {
   object-fit: cover;
   -ms-flex-pack: center;
       justify-content: center;
+}
+
+.portfolio .card-title {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.portfolio .card-text {
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.portfolio .card-body {
+  background: #fff;
+  margin-top: 0;
+  padding: 12px;
 }
 
 .page-footer .container .row {
