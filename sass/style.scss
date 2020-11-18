@@ -2,45 +2,62 @@ body {
   margin: 0;
 }
 .logo {
-  color: #f1c40f;
+  color: #f1c40f; 
+  padding: 15px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
 }
 
 .btn-menu {
   color: #fff;
   font-size: 12px;
-  padding: 7px;
+  padding: 7px; 
+  text-transform: uppercase;
+  text-decoration: none;
 }
-
+.btn-primary {
+    padding: 15px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top-left-radius:4px;
+    text-decoration: none;
+}
 .menu {
-  color: #f5f6fa;
+  color: #f5f6fa; 
+  padding: 15px;
 }
 
 li {
   display: inline-block;
   font-size: 14px;
   color: #f5f6fa;
-  text-decoration: none;
+  text-decoration: none; 
+  justify-content: left;
 }
 
 .intro {
   background-image: url("https://images.pexels.com/photos/3892378/pexels-photo-3892378.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-repeat: no-repeat;
-  height: 100%;
+  height: 600px;
   width: 100%;
   background-size: cover;
   position: relative;
   min-height: 300px;
+  background-position: center center; 
 }
 
 .splash {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
+  justify-content: center;
   margin: 0 auto;
-  color: #fff;
+  color: #fff; 
+  position: relative;
+  text-align: center;
+}   
+.splash .page-title {
+  font-family: 'Dancing Script', cursive;
 }
-
 .splash .btn-primary {
   text-align: center;
   font-size: 16px;
@@ -48,26 +65,54 @@ li {
   border: none;
   background-color: #ffc107;
 }
-
+.services .container {
+  margin: 0 auto;
+  flex: 0 0 33.333%;
+}
+.splash-inner {
+  position: absolute;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 30px;
+}
 .serivces-title {
   text-align: center;
 }
-
+.article  {
+  padding: 10px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 .section-subtitle {
   font-size: 12px;
 }
-
-.services i {
-  font-size: 30px;
-  background: none;
-  color: #ffd32a;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  border-radius: 50%;
+.splash .btn-primary {
   text-align: center;
-  border-color: #ffd32a;
-}
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  background-color: #ffc107; 
+  }
+  .cotainer-inner .serivces-title {
+    text-align: center;
+  }
+  .services .row {
+    text-align: center; 
+  }
+  .services i {
+    font-size: 30px;
+    background: none;
+    color: #ffd32a;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    border-color: #ffd32a;
+    border: 3px solid #ffd32a; 
+    padding: 10px;
+  }
 
 .card-body {
   text-align: center;
@@ -75,17 +120,25 @@ li {
 
 .first-title {
   font-size: 20px;
+  padding: 10px;
 }
 
 .section-title {
   font-size: 50px;
   padding: 20px;
 }
-
+.portfolio .section-title {
+  text-align: center;
+}
 .portfolio {
   background: #dfe6e9;
 }
-
+.portfolio img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  justify-content: center;
+}
 .page-footer .container .row {
   display: table;
   text-align: center;
