@@ -176,8 +176,7 @@ text-transform: uppercase;
 }
 .page-footer .row {
   display: flex;
-  justify-content: left;
-  text-align: center;
+  text-align: left;
   margin-left: auto;
   margin-right: auto;
   font-size: 20px;
@@ -188,14 +187,18 @@ text-transform: uppercase;
 }
 .page-footer i {
   padding: 10px;
-  font-size: 40px;
-}
-.page-footer .row {
   
-  
-  align-items: center;
+    font-size: 40px;
+    background: none;
+    color:  #1e272e;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    border-color: v;
+    
+    border: 3px solid #1e272e; 
 }
-.page-footer .col-lg-6 {
-  text-align: left;
-}
+
 /*# sourceMappingURL=style.css.map */

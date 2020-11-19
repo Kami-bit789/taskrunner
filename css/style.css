@@ -209,9 +209,7 @@ li {
 .page-footer .row {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: left;
-      justify-content: left;
-  text-align: center;
+  text-align: left;
   margin-left: auto;
   margin-right: auto;
   font-size: 20px;
@@ -226,14 +224,14 @@ li {
 .page-footer i {
   padding: 10px;
   font-size: 40px;
-}
-
-.page-footer .row {
-  -ms-flex-align: center;
-      align-items: center;
-}
-
-.page-footer .col-lg-6 {
-  text-align: left;
+  background: none;
+  color: #1e272e;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  border-color: v;
+  border: 3px solid #1e272e;
 }
 /*# sourceMappingURL=style.css.map */
