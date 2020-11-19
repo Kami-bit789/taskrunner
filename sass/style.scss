@@ -26,6 +26,7 @@ body {
 .menu {
   color: #f5f6fa; 
   padding: 15px;
+  text-align: right;
 }
 
 li {
@@ -46,7 +47,10 @@ li {
   min-height: 300px;
   background-position: center center; 
 }
-
+.intro .row {
+ 
+  align-items: center;
+}
 .splash {
   display: flex;
   justify-content: center;
@@ -71,6 +75,7 @@ text-transform: uppercase;
 .services .container {
   margin: 0 auto;
   flex: 0 0 33.333%;
+  padding: 20px;
 }
 .splash-inner {
   position: absolute;
@@ -114,9 +119,11 @@ text-transform: uppercase;
   }
 .services .row {
   text-align: center;
+  
 }
 .card-body {
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .first-title {
@@ -125,6 +132,7 @@ text-transform: uppercase;
 }
 .container-inner .col-lg-12 {
   text-align: center;
+  
 }
 .section-title {
   font-size: 30px;
@@ -143,6 +151,7 @@ text-transform: uppercase;
 }
 .portfolio .row {
   margin-bottom: 0;
+  align-items: center;
 }
 .portfolio img {
   width: 100%;
@@ -165,16 +174,21 @@ text-transform: uppercase;
   margin-top: 0;
   padding: 12px;
 }
-.page-footer .container .row {
+.page-footer .row {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   font-size: 20px;
+  align-items: center;
 }
 .page-footer {
   padding: 20px;
+}
+.page-footer i {
+  padding: 10px;
+  font-size: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */
