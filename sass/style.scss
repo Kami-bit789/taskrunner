@@ -186,19 +186,19 @@ text-transform: uppercase;
   padding: 20px;
 }
 .page-footer i {
-  padding: 10px;
-  
-    font-size: 40px;
-    background: none;
-    color:  #1e272e;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    border-radius: 50%;
-    text-align: center;
-    border-color: v;
-    
-    border: 3px solid #1e272e; 
+  padding-bottom: 15px; 
+  font-size: 40px;
+  background: none;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  border-color:  #1e272e;
+  background-color:  #1e272e;
+  border: 3px solid #1e272e; 
+  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
